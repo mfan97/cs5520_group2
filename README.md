@@ -30,3 +30,40 @@ The repository is organized as follows:
 - CocoaPods installed. If not, install CocoaPods using:
   ```bash
   sudo gem install cocoapods
+  ```
+### Steps
+1. Clone the repository:
+  ```bash
+  bash
+  git clone <repository_url>
+  cd MyApp
+  ```
+2. Install dependencies using CocoaPods:
+
+  ```bash
+  Copy code
+  pod install
+  ```
+3. Open the workspace file:
+
+  ```bash
+  open MyApp.xcworkspace
+  ```
+4. Build and run the app in Xcode:
+
+- Select your target device or simulator.
+- Click the "Run" button or use the shortcut Command + R.
+
+## Dependencies
+The project uses the following dependencies managed by CocoaPods:
+
+- **Firebase/Core**: Base Firebase SDK for initializing Firebase in your app.
+- **Firebase/Auth**: SDK for user authentication and management.
+- **Firebase/Database**: Realtime database for storing and syncing app data.
+- **Firebase/Analytics**: SDK for tracking app usage and user behavior.
+- **Firebase/Crashlytics**: Tool for monitoring app crashes and logging errors.
+- **Firebase/Storage**: SDK for file storage, such as images or other media.
+- **Firebase/Firestore**: Cloud Firestore for scalable and flexible database solutions.
+- **FirebaseFirestoreSwift**: Swift extensions for integrating Firestore into your Swift project.
+- **SDWebImage**: Asynchronous image downloading and caching library for efficient image handling.
+- **Appirater**: A utility to prompt users to rate the app based on usage milestones.
