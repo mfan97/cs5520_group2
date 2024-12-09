@@ -34,7 +34,6 @@ The repository is organized as follows:
 ### Steps
 1. Clone the repository:
   ```bash
-  bash
   git clone <repository_url>
   cd MyApp
   ```
